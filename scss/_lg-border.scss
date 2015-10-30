@@ -1,0 +1,44 @@
+/*
+ * sircus-tools-border-responsive(lg)
+ ================================================== */
+@media #{$g-viewport-lg} {
+/* Border */
+.t-lg-border         { border: $g-borderSize $g-borderStyle; }
+.t-lg-borderTop      { border-top: $g-borderSize $g-borderStyle; }
+.t-lg-borderLeft     { border-left: $g-borderSize $g-borderStyle; }
+.t-lg-borderBottom   { border-bottom: $g-borderSize $g-borderStyle; }
+.t-lg-borderRight    { border-right: $g-borderSize $g-borderStyle; }
+
+.t-lg-border2x       { border: ($g-borderSize * 2) $g-borderStyle; }
+.t-lg-borderTop2x    { border-top: ($g-borderSize * 2) $g-borderStyle; }
+.t-lg-borderLeft2x   { border-left: ($g-borderSize * 2) $g-borderStyle; }
+.t-lg-borderBottom2x { border-bottom: ($g-borderSize * 2) $g-borderStyle; }
+.t-lg-borderRight2x  { border-right: ($g-borderSize * 2) $g-borderStyle; }
+
+.t-lg-border3x       { border: ($g-borderSize * 3) $g-borderStyle; }
+.t-lg-borderTop3x    { border-top: ($g-borderSize * 3) $g-borderStyle; }
+.t-lg-borderLeft3x   { border-left: ($g-borderSize * 3) $g-borderStyle; }
+.t-lg-borderBottom3x { border-bottom: ($g-borderSize * 3) $g-borderStyle; }
+.t-lg-borderRight3x  { border-right: ($g-borderSize * 3) $g-borderStyle; }
+
+.t-lg-border4x       { border: ($g-borderSize * 4) $g-borderStyle; }
+.t-lg-borderTop4x    { border-top: ($g-borderSize * 4) $g-borderStyle; }
+.t-lg-borderLeft4x   { border-left: ($g-borderSize * 4) $g-borderStyle; }
+.t-lg-borderBottom4x { border-bottom: ($g-borderSize * 4) $g-borderStyle; }
+.t-lg-borderRight4x  { border-right: ($g-borderSize * 4) $g-borderStyle; }
+
+.t-lg-border0        { border: 0; }
+.t-lg-borderTop0     { border-top: 0; }
+.t-lg-borderLeft0    { border-left: 0; }
+.t-lg-borderBottom0  { border-bottom: 0; }
+.t-lg-borderRight0   { border-right: 0; }
+
+/* Border radius */
+.t-lg-borderRadius        { border-radius: $g-borderRadius; }
+.t-lg-borderRadiusXs      { border-radius: $g-borderRadius-xs; }
+.t-lg-borderRadiusSm      { border-radius: $g-borderRadius-sm; }
+.t-lg-borderRadiusMd      { border-radius: $g-borderRadius-md; }
+.t-lg-borderRadiusLg      { border-radius: $g-borderRadius-lg; }
+.t-lg-borderRadiusXl      { border-radius: $g-borderRadius-xl; }
+.t-lg-borderRadiusCircle  { border-radius: 100%;}
+}

@@ -1,0 +1,31 @@
+{
+  "name": "sircus-tools-border-responsive",
+  "description": "Tools Modules For Responsive CSS Style Borders.",
+  "version": "0.0.0",
+  "homepage": "http://sircus.github.io",
+  "keywords": [
+    "css",
+    "design",
+    "modular",
+    "scalable",
+    "rwd"
+  ],
+  "author": {
+    "name": "blivesta",
+    "url": "http://blivesta.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sircus/tools-border.git"
+  },
+  "scripts": {
+    "build:sm": "css2scss ./lib/sm-border.css ./scss/_sm-border.scss",
+    "build:md": "css2scss ./lib/md-border.css ./scss/_md-border.scss",
+    "build:lg": "css2scss ./lib/lg-border.css ./scss/_lg-border.scss",
+    "build": "npm run build:sm && npm run build:md && npm run build:lg"
+  },
+  "devDependencies": {
+    "sircus-process-css2scss": "^0.2.0"
+  }
+}

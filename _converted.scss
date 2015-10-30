@@ -1,0 +1,41 @@
+/*
+ * sircus-tools-border
+ ================================================== */
+/* Border */
+.t-border         { border: $g-borderSize $g-borderStyle; }
+.t-borderTop      { border-top: $g-borderSize $g-borderStyle; }
+.t-borderLeft     { border-left: $g-borderSize $g-borderStyle; }
+.t-borderBottom   { border-bottom: $g-borderSize $g-borderStyle; }
+.t-borderRight    { border-right: $g-borderSize $g-borderStyle; }
+
+.t-border2x       { border: ($g-borderSize * 2) $g-borderStyle; }
+.t-borderTop2x    { border-top: ($g-borderSize * 2) $g-borderStyle; }
+.t-borderLeft2x   { border-left: ($g-borderSize * 2) $g-borderStyle; }
+.t-borderBottom2x { border-bottom: ($g-borderSize * 2) $g-borderStyle; }
+.t-borderRight2x  { border-right: ($g-borderSize * 2) $g-borderStyle; }
+
+.t-border3x       { border: ($g-borderSize * 3) $g-borderStyle; }
+.t-borderTop3x    { border-top: ($g-borderSize * 3) $g-borderStyle; }
+.t-borderLeft3x   { border-left: ($g-borderSize * 3) $g-borderStyle; }
+.t-borderBottom3x { border-bottom: ($g-borderSize * 3) $g-borderStyle; }
+.t-borderRight3x  { border-right: ($g-borderSize * 3) $g-borderStyle; }
+
+.t-border4x       { border: ($g-borderSize * 4) $g-borderStyle; }
+.t-borderTop4x    { border-top: ($g-borderSize * 4) $g-borderStyle; }
+.t-borderLeft4x   { border-left: ($g-borderSize * 4) $g-borderStyle; }
+.t-borderBottom4x { border-bottom: ($g-borderSize * 4) $g-borderStyle; }
+.t-borderRight4x  { border-right: ($g-borderSize * 4) $g-borderStyle; }
+
+.t-border0        { border: 0; }
+.t-borderTop0     { border-top: 0; }
+.t-borderLeft0    { border-left: 0; }
+.t-borderBottom0  { border-bottom: 0; }
+.t-borderRight0   { border-right: 0; }
+
+/* Border radius */
+.t-borderRadius        { border-radius: $g-borderRadius;}
+.t-borderRadiusSm      { border-radius: $g-borderRadius-sm;}
+.t-borderRadiusMd      { border-radius: $g-borderRadius-md;}
+.t-borderRadiusLg      { border-radius: $g-borderRadius-lg;}
+.t-borderRadiusXl      { border-radius: $g-borderRadius-xl;}
+.t-borderRadiusCircle  { border-radius: 100%;}
